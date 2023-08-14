@@ -14,6 +14,14 @@ public class Application2 {
          * 둘레 : 97.8
          *  */
 
+        double w = 12.5;
+        double h = 36.4;
+        double w2 = w * 2;
+        double h2 = h * 2;
+
+        System.out.println("면적 : " + (w * h));
+        System.out.println("둘레 : " + (w2 + h2));
+
     }
 
 }

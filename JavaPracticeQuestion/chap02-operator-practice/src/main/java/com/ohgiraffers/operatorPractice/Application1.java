@@ -14,6 +14,19 @@ public class Application1 {
          *
          * 홀수
          * */
+
+            int a = 9;
+
+            System.out.println("정수 9를 선언했을 경우");
+
+
+            if(a % 2 == 0){
+                System.out.println("짝수다");
+            }else{
+                System.out.println("홀수다");
+            }
+
+
     }
 
 }

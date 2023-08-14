@@ -13,6 +13,17 @@ public class Application2 {
          * ------ 출력 결과 --------
          * 청소년
          * */
+
+        int a = 19;
+
+        System.out.println("------ 출력 결과 ------");
+        if( a <= 13){
+            System.out.println("어린이");
+        }else if(a > 13 && a <= 19){
+            System.out.println("청소년");
+        }else{
+            System.out.println("성인");
+        }
     }
 
 }
